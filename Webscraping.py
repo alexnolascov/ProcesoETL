@@ -7,7 +7,6 @@ from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 
-
 def webscraping():
     s = Service(ChromeDriverManager().install())
     opc = Options()
@@ -54,6 +53,7 @@ def webscraping():
 
     df = pd.DataFrame(data)
     df.to_csv("datasetsproductostres.csv", index=False)
+    print(df)
 
 
 if __name__ == '__main__':
