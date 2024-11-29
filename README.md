@@ -23,9 +23,9 @@ MySQL: Para el almacenamiento y la gestión de datos.
 Autores 👩‍💻
 
 Este proyecto fue desarrollado por:
-Katherin Livier Morales Lozoya
-Linda Jaqueline Vazquez Zamora
-Alejandro Nolasco Obregon
+Katherin Livier Morales Lozoya,
+Linda Jaqueline Vazquez Zamora,
+Alejandro Nolasco Obregon,
 Serrano Loaiza Eduardo Paul
 
 
