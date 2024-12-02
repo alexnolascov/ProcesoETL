@@ -20,6 +20,8 @@ BeautifulSoup: Para la extracción de datos web.
 Selenium: Para la automatización de navegación y scrapping dinámico.
 Pandas: Para la manipulación y el análisis de datos.
 MySQL: Para el almacenamiento y la gestión de datos.
+
+
 Autores 👩‍💻
 
 Este proyecto fue desarrollado por:
