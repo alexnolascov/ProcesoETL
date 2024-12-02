@@ -1,3 +1,4 @@
+#Checar Nulos
 import pandas as pd
 
 def checar_nulos(df):
