@@ -33,7 +33,7 @@ def eliminar_duplicados(df):
 
 if __name__ == "__main__":
     #Cargar el archivo CSV y tratar "N/A", "na", "", o " " como valores nulos
-    df = pd.read_csv("datos_sucios/peliculasdatos.csv", na_values=["N/A", "na", "", " "])
+    df = pd.read_csv("Datasets/peliculasdatos.csv", na_values=["N/A", "na", "", " "])
 
     print("\n Verificando Nulos")
     checar_nulos(df)
@@ -46,5 +46,5 @@ if __name__ == "__main__":
     df = eliminar_duplicados(df)
 
     # Guardar el DataFrame limpio en un nuevo archivo CSV
-    df.to_csv("datos_limpios/peliculasdatos_limpio.csv", index=False)
+    df.to_csv("Datasets/peliculasdatos_limpio.csv", index=False)
     print("\nArchivo limpio guardado como 'peliculasdatos_limpio.csv'.")
