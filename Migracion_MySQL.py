@@ -6,7 +6,7 @@ from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 
 # Cargar el archivo CSV
-file_path = r"datasets/peliculasdatos_limpio.csv"
+file_path = r"Datos_limpios/peliculasdatos_limpio.csv"
 data = pd.read_csv(file_path)
 
 # Iniciar la aplicación Dash con el tema oscuro de Bootstrap
