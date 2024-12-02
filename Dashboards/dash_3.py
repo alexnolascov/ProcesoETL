@@ -3,7 +3,7 @@ from dash import dcc, html
 import plotly.express as px
 import pandas as pd
 from dash.dependencies import Input, Output
-
+#DASHBOARD 3
 # Cargar y procesar datos
 data = pd.read_csv(r"datasets/peliculasdatos_limpio.csv")
 
